@@ -1,0 +1,485 @@
+@import url('https://fonts.cdnfonts.com/css/qanelas');
+
+body{
+  font-family: 'Qanelas', sans-serif;
+  width: 100%;
+  background: #1E2538;
+}
+
+main {
+  background: #1E2538;
+  background-image: url(./img/fon.png);
+  background-repeat: no-repeat;
+}
+
+
+header {
+  width: 1500px;
+  height: auto;  
+  margin: auto;
+}
+
+.container_navigator {
+  width: 1500px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header_logotip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logotip>h1 {
+  color: #3657CB;
+  font-family: Qanelas;
+  font-size: 25px;
+}
+
+.header_logotip>img {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.header_logotip>h2 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 25px;
+}
+
+.navigation_a {
+  display: flex;
+  width: 760px;
+  margin: auto;
+  gap: 40px;
+}
+.navigation_a_text>a {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 17px;
+}
+
+.navigation_poisk {
+  width: 55px;
+  height: 52px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.navigation_poisk>a>img {
+  transition: 1s;
+}
+
+.navigation_poisk>a>img:hover {
+  transform: scale(1.5);
+}
+
+.navigation_but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.navigation_poisk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigation_poisk:hover {
+  box-shadow: 0px 0px 15px 0px #FFF;
+}
+
+.navigation_button>button {
+  width: 138px;
+  height: 53px;
+  background: #3657CB;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.navigation_button>button:hover {
+  box-shadow: 0px 0px 15px 0px #4871FFCC;
+}
+
+.choice {
+  width: 1430px;
+  height: 83px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.choice>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.choice_kino {
+  display: flex;
+  justify-content: space-between;
+  gap: 63px;
+}
+
+.choice_kino_text>a {
+  color: rgba(255, 255, 255, 0.35);
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.choice_kino_text>a:hover {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.choice_kino_text>a:active {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.choice_kino_line {
+  width: 51.5px;
+  height: 2px;
+  background: #FFF;
+  margin: 0 70px 0 70px;
+}
+
+.covers {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
+}
+
+.covers_option {
+  cursor: pointer;
+  position: relative;
+}
+
+.covers_img>img {
+  object-fit: cover;
+  width: 339.401px;
+  height: 480.559px;
+  min-height: 100%;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.covers_name>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.covers_rating {
+  border-radius: 5px;
+  background: #89CB36;
+  width: 62.275px;
+  height: 33.214px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12px;
+  top: 23px;
+}
+
+.covers_rating>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.covers_description>p {
+  color: #F2F60F;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.work {
+  display: flex;
+}
+
+.grid_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 54px 0 54px 0;
+
+}
+
+.grid_btn>button {
+  width: 200px;
+  height: 71px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  background: transparent;
+}
+
+.grid_btn>button>a {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.5%;
+}
+
+.video_trailer {
+  width: 1500px;
+  margin: auto;
+  height: auto;
+}
+
+.video_trailer_cursor>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 60px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.video_trailer_cursor>h2 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.video_trailer_cursor>h2>img {
+  margin-left: 25px;
+  cursor: pointer;
+  width: 25px;
+}
+
+.video_trailer_container {
+  width: 1500px;
+  cursor: pointer;
+  position: relative;
+}
+
+.video_start {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.video_opisanie_fast9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.scroll_video_trailer_cointainer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 8px;
+}
+
+.scroll_video_trailer_cointainer>img {
+  width: 449px;
+  height: 252px;
+  border-radius: 10px;
+  transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+.scroll_video_trailer {
+  padding-bottom: 25px;
+  overflow-y: hidden;
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+  direction: ltr;
+  border-radius: 10px;
+  scrollbar-color: #3657CB #1B2133;
+  scrollbar-width: thin;
+  transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+
+}
+
+.scroll_video_trailer_cointainer>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+.scroll_video_trailer::-webkit-horizontalscrollbar {
+  width: 20px;
+}
+
+.popular_film {
+  width: 1430px;
+  height: 83px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.popular_film>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.cpopular_film_data {
+  display: flex;
+  justify-content: space-between;
+  gap: 63px;
+}
+
+.popular_film_text>a {
+  color: rgba(255, 255, 255, 0.35);
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular_film_text>a:hover {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular_film_text>a:active {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular_film_line {
+  width: 51.5px;
+  height: 2px;
+  background: #FFF;
+  margin: 0 70px 0 70px;
+}
+
+.covers_film {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
+}
+
+.covers_option_film {
+  cursor: pointer;
+  position: relative;
+}
+
+.covers_img_film>img {
+  object-fit: cover;
+  width: 339.401px;
+  height: 480.559px;
+  min-height: 100%;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.covers_name_film>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.covers_rating_film {
+  border-radius: 5px;
+  background: #89CB36;
+  width: 62.275px;
+  height: 33.214px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12px;
+  top: 23px;
+}
+
+.covers_rating_film>h1 {
+  color: #FFF;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.covers_description_film>p {
+  color: #F2F60F;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.work_film {
+  display: flex;
+}
