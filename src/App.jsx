@@ -386,25 +386,7 @@ function App () {
         </div>
       </div>
 
-      <div className='container_popular_film_grid'>
-        <img src={arrow_left} alt='' />
-        <h1>4/15</h1>
-        <img src={arrow_right} alt='' />
-      </div>
-      <div className='container_popular_film_person'>
-        <div className='container_popular_film_person_data'>
-          <h1>Популярные фильмы</h1>
-          <div classNmae='container_popular_film_person_data_time'>
-            <h1>За год</h1>
-            <h1>За месяц</h1>
-            <h1>За неделю</h1>
-          </div>
-        </div>
-        
-        <div className='container_popular_film_person_card'>
-          <img src={persone_card} alt='' />
-        </div>
-      </div>
+
 
 
 
